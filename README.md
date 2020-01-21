@@ -14,4 +14,7 @@ linux：
 命令执行→每个语句尾加；再连成一句
 Command execution → add at the end of each statement; then connect into one sentence
 
+3.special（特殊）
+python -c "import pty;pty.spawn('/bin/bash')"
+
 ------------------------------------------
